@@ -14,11 +14,11 @@ My very own personal website. Basically this is just a résumé.
 ```sh
 $ git clone https://github.com/Cooplix/homepage.git
 ```
-1. To develop in 'master' branch
+1. To develop in 'main' branch
 ```sh
 $ git clone https://github.com/Cooplix/homepage.git
-$ git checkout -b master 
-$ git pull origin master
+$ git checkout -b main
+$ git pull origin main
 ```
 
 
