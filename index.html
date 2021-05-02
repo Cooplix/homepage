@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
-    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="base.css">
   </head>
-  <body>
-    <main>
+  <body >
+    <main style="background-image: url('./assets/images/VJedi.jpg'); background-repeat: repeat;">
       <article>
-        <div class="page" style="border-color: midnightblue;">
+        <div class="page" style="border-color: rgb(72, 233, 57);">
           <div class="stackable grid">
-            <div class="row">
+            <div class="row" >
               <div class="three wide center aligned column">
                 <div class="avatar-wrapper">
                   <object class="avatar" data="./assets/images/CV.jpg" role="img" aria-label="My profile picture"></object>
@@ -76,6 +76,17 @@
                     <p><strong>Galactic Civil War at <a href="https://en.wikipedia.org/wiki/Star_Wars">In a galaxy far, far away</a> </strong></p>
                     <p>Jedi Knight</p>
                   </li>
+
+                  <div>
+                    <p> </p>
+                    <p><strong>My graduation photo</strong></p>
+                    <audio id="audio" src="./assets/audios/Lightsaber.mp3"></audio>
+                    <abbr title="You underestimate my power! Senior-Pomidor">
+                    <img id="play" src="./assets/images/oru.png" style="width: 100%;" class="shake-slow shake-constant">
+                    </abbr>
+                    <abbr title="Click on picture"><p>HEAR MY POWER!!!💬</p></abbr>
+                  </div>
+                  
                 </ul>
               </div>
               <div class="six wide column">
@@ -85,27 +96,20 @@
                   <span class="nowrap">Java</span></p>
                 </section>
 
-
-
                 <section>
                   <h3>Hobbies</h3>
                   <p class="tags small">Bouldering, bicycle, procrastination</p>
                   </section>
-
 
                 <section>
                   <h3>Likes&#x1f603;</h3>
                   <p class="tags small">Programming, invest, bicycle</p>
                 </section>
 
-
-
                 <section>
                   <h3>Dislikes&#x1f61e;</h3>
                   <p class="tags small"><span class="nowrap">Procrastination, Distance education(hate)</span></p> 
                 </section>
-
-
 
                 <section>
                   <h3>Wants&#x1f97a;</h3>
@@ -119,9 +123,10 @@
                     <li>
                       <div><em>Every day</em></div>
                       <p class="tags bulleted">
-                        <span class="tag"><a href="https://docs.oracle.com/en/java/javase/11" rel="external"><strong>Java</strong></a>
-                        </span><span class="tag"><a href="https://spring.io/" rel="external"><strong>Spring</strong></a>
-                        </span><span class="tag"><a href="https://reactjs.org/" rel="external"><strong>React</strong></a></span>
+                        <span class="tag"><a href="https://docs.oracle.com/en/java/javase/11" rel="external"><strong>Java</strong></a></span>
+                        <span class="tag"><a href="https://spring.io/" rel="external"><strong>Spring</strong></a></span>
+                        <span class="tag"><a href="https://reactjs.org/" rel="external"><strong>React</strong></a></span>
+                        <span class="tag"><a href="https://starwars.fandom.com/wiki/Stormtrooper"><strong>Shooting with Stormtrooper</strong></a></span>
                       </p>
                     </li>
                     <li>
@@ -132,6 +137,7 @@
                     <li>
                       <div><em> 3236<sup>LY</sup> &ndash; 2380<sup>LY</sup> </em></div>
                       <div> <strong>Jedi Knight</strong> at <strong><a href="https://starwars.fandom.com/wiki/Imperial_Palace">Jedi Grand Temple</a></strong></div>
+                      
                     </li>
                   </ul>
                   </section>
@@ -140,6 +146,9 @@
           </div>
         </div>
       </article>
+    </div>
     </main>
+    
   </body>
+  <script src="./assets/scripts/sound.js"></script>
 </html>
