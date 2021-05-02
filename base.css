@@ -1057,37 +1057,3 @@
       margin-bottom: 0;
     }
   }
-
-  .photoDiv > input {
-    display: none;
-  }
-  
-  .photoDiv > label {
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid;
-    border-radius: 4px;
-    background: #336600;
-    color: #FFF;
-    font-family: arial;
-    -webkit-transition: background-color 0.1s, color 0.1s;
-  }
-  
-  .photoDiv > label:hover {
-    background: #33CC00;
-    color: #000;
-  }
-  
-  .photoDiv > .photo {
-    -webkit-transition: height .3s ease;
-    height: 0;
-    overflow: hidden;
-    width: 200px;
-    background: red;
-    margin-top: 10px;
-  }
-  
-  .photoDiv > input:checked + .photo {
-    height: 100px;
-  }
