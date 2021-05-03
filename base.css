@@ -15,7 +15,7 @@
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
     box-sizing: border-box;
-    background-image: url(./assets/images/VJedi.jpg);
+    background-image: url('./assets/images/VJedi.jpg');
     background-repeat: repeat;
     
   }
